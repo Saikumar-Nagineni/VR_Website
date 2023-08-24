@@ -16,10 +16,10 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="logo_size" /> </a>
+                <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="logo_size" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,7 @@
                     <a class="nav-link" id="custom_nav_menu3" href="http://vrblogs17.ccbp.tech">Recent Blogs</a>
                     <a class="nav-link" id="custom_nav_menu3" href="http://vroptical17.ccbp.tech">Optics & Controls</a>
                     <a class="nav-link" id="custom_nav_menu4" href="http://vrkit17.ccbp.tech">Kit Section</a>
+                    <a class="nav-link" id="custom_nav_menu5" href="https://github.com/Saikumar-Nagineni/VR_Website">Code Reppo</a>
                 </div>
             </div>
         </div>
@@ -39,7 +40,45 @@
     <div class="banner_section_background_container d-flex flex-column justify-content-center">
         <div class="text-center">
             <h1 class="banner_heading">The Revolution in Virtual Reality</h1>
-            <button class="custom_button">View More</button>
+            <!--<button class="custom_button">View More</button>-->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="custom_button" data-toggle="modal" data-target="#exampleModal">
+                View More
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="banner_section_model_title" id="exampleModalLabel">Revolution Of VR</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body mb-5">
+                            <!--<img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100"/> -->
+                            <p class="banner_section_model_sub_title">
+                                Virtual Reality (VR) refers to a simulated environment that can be experienced through immersive technology, usually a combination of visual, auditory, and sometimes tactile sensations. The goal of VR is to transport users to a computer-generated environment that feels real, allowing them to interact with and navigate through this artificial world as if they were physically present within it.<br>
+                                <br>Key components of a typical VR experience include:<br>
+                            <ul class="banner_section_model_description">
+                                <li><span class="banner_section_model_description_h1">Headset:</span> VR headsets are worn over the eyes and sometimes include built-in audio and tracking systems. They use high-resolution displays to present images to each eye, creating a stereoscopic effect that produces a sense of depth and immersion.</li>
+                                <li><span class="banner_section_model_description_h1">Input Devices:</span> To interact with the virtual environment, users employ various input methods such as motion controllers, haptic gloves, or even full-body tracking systems. These devices allow users to manipulate objects, navigate scenes, and engage with the virtual world.</li>
+                                <li><span class="banner_section_model_description_h1">Software and Content:</span> VR experiences are driven by software applications that render the virtual environment and respond to user inputs. These can range from simple games and simulations to complex interactive environments for education, training, entertainment, and more.</li>
+                                <li><span class="banner_section_model_description_h1">Tracking Systems:</span> To ensure that the virtual environment accurately mirrors the user's movements, VR systems often incorporate tracking systems. These can be external sensors that detect the position of the headset and controllers, or they might use inside-out tracking, where the system uses built-in sensors to monitor the user's movements relative to the environment.</li>
+                                <li><span class="banner_section_model_description_h1">Immersive Audio:</span> Realistic audio is a crucial aspect of VR. 3D audio technology is used to create the illusion of sound coming from specific directions and distances, enhancing the sense of presence and immersion.</li>
+                                <li><span class="banner_section_model_description_h1">Graphics and Rendering:</span> VR demands high-quality graphics and rendering to maintain a believable and immersive experience. High frame rates and low latency are essential to prevent motion sickness and provide a smooth visual experience.</li>
+                                <li><span class="banner_section_model_description_h1">Content Creation:</span> Creating VR content involves specialized tools and techniques. 3D modeling, texturing, animation, and spatial sound design are just a few of the elements that contribute to crafting immersive experiences.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
