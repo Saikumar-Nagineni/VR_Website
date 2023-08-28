@@ -104,6 +104,44 @@
     font-style: italic;
 }
 
+/* VR_images*/
+
+.card {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
 
 /* VR_video*/
 
@@ -124,6 +162,7 @@
     color: #7b8794;
     font-size: 14px;
     font-family: "roboto";
+
 
 }
 
